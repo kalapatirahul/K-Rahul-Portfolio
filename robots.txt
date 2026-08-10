@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kalapatirahul.github.io/K-Rahul-Portfolio/sitemap.xml

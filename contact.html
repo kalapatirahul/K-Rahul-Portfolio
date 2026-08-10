@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | K Rahul</title>
+
+    <meta
+        name="description"
+        content="Contact K Rahul through email, LinkedIn, GitHub or the accessible contact form."
+    >
+
+    <link rel="icon" type="image/png" href="assets/icons/favicon.png">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<a class="skip-link" href="#main-content">
+    Skip to main content
+</a>
+
+
+<header class="site-header">
+
+    <nav class="navbar container" aria-label="Primary navigation">
+
+        <a class="logo" href="index.html">
+            K<span>R</span>
+        </a>
+
+        <button
+            class="menu-button"
+            type="button"
+            aria-expanded="false"
+            aria-controls="primary-navigation"
+            aria-label="Open navigation menu"
+        >
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <ul class="nav-list" id="primary-navigation">
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="about.html">About</a></li>
+
+            <li><a href="skills.html">Skills</a></li>
+
+            <li><a href="projects.html">Projects</a></li>
+
+            <li><a href="education.html">Education</a></li>
+
+            <li><a href="experience.html">Experience</a></li>
+
+            <li>
+                <a href="contact.html" aria-current="page">
+                    Contact
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+
+<main id="main-content">
+
+    <section class="page-header" aria-labelledby="page-title">
+
+        <div class="container">
+
+            <p class="eyebrow">
+                GET IN TOUCH
+            </p>
+
+            <h1 id="page-title">
+                Contact Me
+            </h1>
+
+            <p>
+                Have a question, project idea or opportunity?
+                Feel free to reach out.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <section class="section" aria-labelledby="contact-section-title">
+
+        <div class="container contact-layout">
+
+            <aside class="contact-information">
+
+                <p class="eyebrow">
+                    CONTACT INFORMATION
+                </p>
+
+                <h2 id="contact-section-title">
+                    Let's Connect
+                </h2>
+
+                <p>
+                    You can reach me through email or connect with
+                    me on LinkedIn and GitHub.
+                </p>
+
+
+                <address>
+
+                    <div class="contact-item">
+
+                        <span class="contact-label">
+                            Email
+                        </span>
+
+                        <a href="mailto:kalapatirahul1@gmail.com">
+                            kalapatirahul1@gmail.com
+                        </a>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <span class="contact-label">
+                            Location
+                        </span>
+
+                        <span>
+                            Tirupati, India
+                        </span>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <span class="contact-label">
+                            LinkedIn
+                        </span>
+
+                        <a
+                            href="https://www.linkedin.com/in/rahulkalapati/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            LinkedIn Profile
+                            <span class="visually-hidden">
+                                opens in a new tab
+                            </span>
+                        </a>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <span class="contact-label">
+                            GitHub
+                        </span>
+
+                        <a
+                            href="https://github.com/kalapatirahul"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            GitHub Profile
+                            <span class="visually-hidden">
+                                opens in a new tab
+                            </span>
+                        </a>
+
+                    </div>
+
+                </address>
+
+            </aside>
+
+
+            <section class="form-card" aria-labelledby="form-title">
+
+                <p class="eyebrow">
+                    SEND A MESSAGE
+                </p>
+
+                <h2 id="form-title">
+                    Contact Form
+                </h2>
+
+                <form id="contact-form" novalidate>
+
+                    <div class="form-group">
+
+                        <label for="name">
+                            Full Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            autocomplete="name"
+                            required
+                            minlength="2"
+                            aria-describedby="name-help"
+                        >
+
+                        <small id="name-help">
+                            Enter your full name.
+                        </small>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email Address
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            autocomplete="email"
+                            required
+                            aria-describedby="email-help"
+                        >
+
+                        <small id="email-help">
+                            Enter a valid email address.
+                        </small>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="subject">
+                            Subject
+                        </label>
+
+                        <input
+                            type="text"
+                            id="subject"
+                            name="subject"
+                            autocomplete="off"
+                            required
+                            minlength="3"
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="message">
+                            Message
+                        </label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="7"
+                            required
+                            minlength="10"
+                            aria-describedby="message-help"
+                        ></textarea>
+
+                        <small id="message-help">
+                            Please enter at least 10 characters.
+                        </small>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="button primary-button"
+                    >
+                        Send Message
+                    </button>
+
+
+                    <p
+                        id="form-status"
+                        class="form-status"
+                        role="status"
+                        aria-live="polite"
+                    ></p>
+
+                </form>
+
+            </section>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer class="site-footer">
+
+    <div class="container footer-grid">
+
+        <div>
+            <a class="footer-logo" href="index.html">
+                K Rahul
+            </a>
+            <p>Aspiring Software Engineer</p>
+        </div>
+
+        <div>
+            <h2>Quick Links</h2>
+
+            <ul class="footer-links">
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h2>Connect</h2>
+
+            <ul class="footer-links">
+                <li>
+                    <a href="mailto:kalapatirahul1@gmail.com">
+                        Email
+                    </a>
+                </li>
+                <li>
+                    <a
+                        href="https://www.linkedin.com/in/rahulkalapati/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        LinkedIn
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <div class="container">
+
+            <p>
+                &copy; 2026 K Rahul. All rights reserved.
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
